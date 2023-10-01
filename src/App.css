@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.App input[type="text"],
+.App input[type="email"],
+.App input[type="password"] .App input textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.App input[type="submit"]:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+}
+
+.App label {
+  font-weight: bold;
+}
